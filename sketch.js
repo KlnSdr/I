@@ -8,7 +8,7 @@ const speed = 0.5;
 let index = 0;
 
 function setup() {
-  createCanvas(((windowWidth <= windowHeight) ? windowWidth : windowHeight), ((windowWidth <= windowHeight) ? windowWidth : windowHeight));
+  createCanvas(400, 400);
   offsetX = width / 2 - offset;
   x = width / 2;
   y = height / 2;
